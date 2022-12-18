@@ -1,7 +1,11 @@
 public class main {
     public static void main(String[] args) {
-        System.out.println("The Basic Structure is Ready please write down your code in this " +
-                "project");
+       SolarSystem Earth=new SolarSystem();
+       Earth.Sun=1;
+       Earth.moon=2;
+       Earth.Planets=3;
+        
+
 
     }
 }
